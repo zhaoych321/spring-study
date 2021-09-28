@@ -1,0 +1,6 @@
+rootProject.name = 'spring-study'
+
+include 'components:kafka'
+include 'components:decorator'
+findProject(':components:decorator')?.name = 'decorator'
+
